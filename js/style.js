@@ -10,6 +10,7 @@ function darkmode(obj) {
 }
 
 function styleload() {
+    window.location.href="https://neongames.io";
     var storage = localStorage.getItem('style');
     document.getElementById('style').href = storage;
    if (storage === null){
